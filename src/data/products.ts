@@ -1,0 +1,88 @@
+import type { Product } from '../types/product';
+
+export const products: Product[] = [
+  {
+    id: 'p001',
+    name: 'Ceramic Mug',
+    category: 'Kitchen',
+    price: 18.99,
+    description: 'A handmade ceramic mug for your favorite warm drinks.',
+  },
+  {
+    id: 'p002',
+    name: 'Wooden Serving Tray',
+    category: 'Kitchen',
+    price: 29.99,
+    description: 'A natural wooden tray for serving drinks and snacks.',
+  },
+  {
+    id: 'p003',
+    name: 'Cotton Tea Towel Set',
+    category: 'Kitchen',
+    price: 14.5,
+    description: 'A set of soft and absorbent cotton kitchen towels.',
+  },
+  {
+    id: 'p004',
+    name: 'Glass Water Bottle',
+    category: 'Kitchen',
+    price: 22,
+    description: 'A reusable glass bottle with a simple protective sleeve.',
+  },
+  {
+    id: 'p005',
+    name: 'Wooden Table Lamp',
+    category: 'Lighting',
+    price: 45,
+    description: 'A warm wooden lamp that creates a relaxing atmosphere.',
+  },
+  {
+    id: 'p006',
+    name: 'Linen Lampshade',
+    category: 'Lighting',
+    price: 32.5,
+    description: 'A soft linen lampshade for gentle ambient lighting.',
+  },
+  {
+    id: 'p007',
+    name: 'Cotton Throw Blanket',
+    category: 'Home',
+    price: 35,
+    description: 'A soft cotton blanket for cozy evenings at home.',
+  },
+  {
+    id: 'p008',
+    name: 'Decorative Cushion',
+    category: 'Home',
+    price: 24.99,
+    description: 'A comfortable cushion with a minimalist design.',
+  },
+  {
+    id: 'p009',
+    name: 'Woven Storage Basket',
+    category: 'Home',
+    price: 27,
+    description: 'A practical woven basket for everyday storage.',
+  },
+  {
+    id: 'p010',
+    name: 'Ceramic Flower Vase',
+    category: 'Decor',
+    price: 31,
+    description: 'A simple ceramic vase for fresh or dried flowers.',
+  },
+  {
+    id: 'p011',
+    name: 'Scented Candle',
+    category: 'Decor',
+    price: 16.99,
+    description: 'A gently scented candle for a peaceful atmosphere.',
+  },
+  {
+    id: 'p012',
+    name: 'Wall Art Print',
+    category: 'Decor',
+    price: 19.5,
+    description: 'A minimalist art print to make your space feel personal.',
+  },
+];
