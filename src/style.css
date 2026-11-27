@@ -323,30 +323,11 @@ a:focus-visible {
 }
 
 .product-image {
-  min-height: 175px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   background: #eee7dc;
-  color: var(--color-accent-dark);
-  font-family: Georgia, serif;
-  font-size: 20px;
-}
-
-.product-image-kitchen {
-  background: #eee7dc;
-}
-
-.product-image-lighting {
-  background: #e9e5dc;
-}
-
-.product-image-home {
-  background: #e8e5dc;
-}
-
-.product-image-decor {
-  background: #eee3dc;
 }
 
 .product-details {

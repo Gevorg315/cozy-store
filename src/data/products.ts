@@ -3,6 +3,7 @@ import type { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 'p001',
+    image: 'images/products/ceramic-mug.jpg',
     name: 'Ceramic Mug',
     category: 'Kitchen',
     price: 18.99,
@@ -10,6 +11,7 @@ export const products: Product[] = [
   },
   {
     id: 'p002',
+    image: 'images/products/wooden-serving-tray.jpg',
     name: 'Wooden Serving Tray',
     category: 'Kitchen',
     price: 29.99,
@@ -17,6 +19,7 @@ export const products: Product[] = [
   },
   {
     id: 'p003',
+    image: 'images/products/cotton-tea-towel.jpg',
     name: 'Cotton Tea Towel Set',
     category: 'Kitchen',
     price: 14.5,
@@ -24,6 +27,7 @@ export const products: Product[] = [
   },
   {
     id: 'p004',
+    image: 'images/products/glass-water-bottle.jpg',
     name: 'Glass Water Bottle',
     category: 'Kitchen',
     price: 22,
@@ -31,6 +35,7 @@ export const products: Product[] = [
   },
   {
     id: 'p005',
+    image: 'images/products/wooden-table-lamp.jpg',
     name: 'Wooden Table Lamp',
     category: 'Lighting',
     price: 45,
@@ -38,6 +43,7 @@ export const products: Product[] = [
   },
   {
     id: 'p006',
+    image: 'images/products/linen-lampshade.jpg',
     name: 'Linen Lampshade',
     category: 'Lighting',
     price: 32.5,
@@ -45,6 +51,7 @@ export const products: Product[] = [
   },
   {
     id: 'p007',
+    image: 'images/products/cotton-throw-blanket.jpg',
     name: 'Cotton Throw Blanket',
     category: 'Home',
     price: 35,
@@ -52,6 +59,7 @@ export const products: Product[] = [
   },
   {
     id: 'p008',
+    image: 'images/products/decorative-cushion.jpg',
     name: 'Decorative Cushion',
     category: 'Home',
     price: 24.99,
@@ -59,6 +67,7 @@ export const products: Product[] = [
   },
   {
     id: 'p009',
+    image: 'images/products/woven-storage-basket.jpg',
     name: 'Woven Storage Basket',
     category: 'Home',
     price: 27,
@@ -66,6 +75,7 @@ export const products: Product[] = [
   },
   {
     id: 'p010',
+    image: 'images/products/ceramic-flower-vase.jpg',
     name: 'Ceramic Flower Vase',
     category: 'Decor',
     price: 31,
@@ -73,6 +83,7 @@ export const products: Product[] = [
   },
   {
     id: 'p011',
+    image: 'images/products/scented-candle.jpg',
     name: 'Scented Candle',
     category: 'Decor',
     price: 16.99,
@@ -80,6 +91,7 @@ export const products: Product[] = [
   },
   {
     id: 'p012',
+    image: 'images/products/wall-art-print.jpg',
     name: 'Wall Art Print',
     category: 'Decor',
     price: 19.5,

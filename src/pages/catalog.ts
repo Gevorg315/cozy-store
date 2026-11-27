@@ -27,11 +27,12 @@ const createProductCard = (
 ): HTMLElement => {
   const card = createElement('article', 'product-card');
 
-  const imagePlaceholder = createElement(
-    'div',
-    `product-image product-image-${product.category.toLowerCase()}`,
-    product.category,
-  );
+  const productImage = createElement('img', 'product-image');
+  productImage.src = `${import.meta.env.BASE_URL}${product.image}`;
+  productImage.alt = product.name;
+  productImage.loading = 'lazy';
+  productImage.width = 400;
+  productImage.height = 300;
 
   const details = createElement('div', 'product-details');
   const category = createElement('p', 'product-category', product.category);
@@ -47,7 +48,7 @@ const createProductCard = (
 
   bottom.append(price, addButton);
   details.append(category, name, description, bottom);
-  card.append(imagePlaceholder, details);
+  card.append(productImage, details);
 
   return card;
 };
